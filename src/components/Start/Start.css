@@ -1,0 +1,13 @@
+@font-face{
+    font-family: Naruto;
+    src: url('../../assets/fonts/njnaruto.ttf');
+}
+.naruto-title{
+    font-family: Naruto;
+    font-size: 3vh;
+    font-style: italic;
+    color: black;
+}
+.options-field{
+    margin-top: 40vh;
+}
