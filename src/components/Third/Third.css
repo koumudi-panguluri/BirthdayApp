@@ -1,0 +1,106 @@
+.header{
+    background-color: #EDEDED;
+    height: 10vh;
+    width: 100vmax;
+}
+.photo{
+    position: relative;
+    left: 10%;
+    top: 25%;
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    background-image: url('../../assets/images/koumi.png');
+}
+.last{
+    position: absolute;
+    overflow: hidden;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+img{
+    height: inherit;
+    width: inherit;
+}
+.contact-name{
+    position: relative;
+    left: 10%;
+    top: 25%;
+    font-style: bold;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.message-body{
+    background-image: url('../../assets/images/whatsapp.png');
+    background-repeat: none;
+    height: 100vmax;
+    width: 100;
+}
+.right-message{
+    position: relative;
+    right: 0;
+    left: 48%;
+    height: fit-content;
+    width: 50vw;
+    background-color: #DCF8C6;
+    border-radius: 10px;
+    display: none;
+}
+.left-message{
+    position: relative;
+    left: 0;
+    right: 40%;
+    width: 50vw;
+    height: fit-content;
+    background-color: #DCF8C6;
+    border-radius: 15px;
+    display: none;
+}
+.time{
+    position: relative;
+    top: 0;
+    left:80%;
+    font-size: 1vh;
+    opacity: 0.5;
+}
+.message{
+    position: relative;
+    left: 2%;
+    font-size: 1.7vh;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    top: 90%;
+    width: 100vmax;
+    background-color: #F0F0F0;
+}
+.first-emoji{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    color: #969696;
+    opacity: 0.5;
+    font-size: 4vh;
+}
+.last-emoji{
+    margin-top: 3vh;
+    color: #969696;
+    opacity: 0.5;
+    font-size: 4vh;
+}
+.message-bar{
+    position: relative;
+    left: 2%;
+    top: 35%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 45px;
+}
+.box-placeholder{
+    position: relative;
+    left: 5%;
+    top: 22%;
+    opacity: 0.6;
+}

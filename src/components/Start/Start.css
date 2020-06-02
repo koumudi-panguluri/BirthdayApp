@@ -2,12 +2,41 @@
     font-family: Naruto;
     src: url('../../assets/fonts/njnaruto.ttf');
 }
+@font-face{
+    font-family: Avengers;
+    src: url('../../assets/fonts/avangers.ttf')
+}
 .naruto-title{
     font-family: Naruto;
     font-size: 3vh;
     font-style: italic;
-    color: black;
+    color: white;
+}
+.avengers-title{
+    font-family: Avengers;
+    font-size: 3vh;
+    font-style: italic;
+    color: white;
 }
 .options-field{
     margin-top: 40vh;
+    z-index: 999;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 0%;
+    bottom: 35%;
+}
+#main-div{
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.avengers-back{
+    background-image: url('../../assets/images/avanger.jpg');
+}
+.naruto-back{
+    background-image: url('../../assets//images/naruto.jpg');
 }

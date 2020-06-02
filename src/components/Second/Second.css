@@ -1,0 +1,30 @@
+@font-face{
+    font-family: Naruto;
+    src: url('../../assets/fonts/njnaruto.ttf')
+}
+@font-face{
+    font-family: Avengers;
+    src: url('../../assets/fonts/avangers.ttf');
+}
+.first-half{
+    height: 50vh;
+}
+.second-half{
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+}
+input{
+    border: none;
+    border-bottom: 2px thin black;
+}
+p.avenger-label{
+    font-family: Avengers;
+    font-size: 5vh;
+    color: black;
+}
+p.naruto-label{
+    font-family: Naruto;
+    font-size: 5vh;
+    color: black;
+}
