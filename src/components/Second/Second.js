@@ -25,7 +25,6 @@ export default (props) =>{
     })
     const passwordHandler = (e) =>{
         setPass(pass+e.target.value)
-        console.log(pass);
         if(pass.length === 9 && pass === '818587852'){
             props.history.push('/final');
         }
@@ -33,7 +32,7 @@ export default (props) =>{
     return(
         <div>
             <div className="first-half">
-                <p id="label-text">Enter the password. You use it to unlock stuff daily</p>
+                <p id="label-text">Enter the password. You use it to unlock stuff daily. Go slow on the keypad</p>
                 <input type="password" value={pass} id="pass" disabled/>
             </div>
             <br/>
