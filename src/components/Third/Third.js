@@ -33,15 +33,15 @@ export default() =>{
                     <p className="time">00:00</p>
                 </div>
                 <div className="left-message" id="2">
-                    <p className="message">Eeeee! Thank you bujji!!</p>
+                    <p className="message">Eeeee! Thank you!</p>
                     <p className="time">00:00</p>
                 </div>
                 <div className="right-message" id="3">
-                    <p className="message">ILY</p>
+                    <p className="message">This web app is progressive, just like you!!!</p>
                     <p className="time">00:00</p>
                 </div>
                 <div className="left-message" id="4">
-                    <p className="message">ILY2!!!!! Muuuah</p>
+                    <p className="message">Thank you! Eeeee. Nice</p>
                     <p className="time">00:01</p>
                 </div>
             </div>
