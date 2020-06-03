@@ -3,6 +3,7 @@ import {Route, BrowserRouter as Router} from 'react-router-dom'
 import Start from './Start/Start'
 import Second from './Second/Second'
 import Third from './Third/Third'
+import '../../public/favicon.ico'
 
 export default ()=>{
     return(

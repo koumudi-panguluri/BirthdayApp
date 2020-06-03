@@ -7,16 +7,13 @@
     src: url('../../assets/fonts/avangers.ttf');
 }
 .first-half{
-    height: 50vh;
+    height: 70vh;
 }
 .second-half{
-    height: 50vh;
+    height:30vh;
     position: absolute;
-    top: 50%;
-}
-input{
-    border: none;
-    border-bottom: 2px thin black;
+    top: 70%;
+    width: 100vw;
 }
 p.avenger-label{
     font-family: Avengers;
@@ -27,4 +24,11 @@ p.naruto-label{
     font-family: Naruto;
     font-size: 5vh;
     color: black;
+}
+button{
+    width: 100%;
+    height: 7.5vh;
+}
+input[type="password"]{
+    margin-left: 25vw;
 }

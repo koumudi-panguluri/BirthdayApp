@@ -11,60 +11,77 @@ export default (props) =>{
         if(theme === 'Naruto'){
             document.getElementById('label-text').classList.add('naruto-label');
             document.getElementById('label-text').classList.remove('avenger-label');
+            document.querySelectorAll('button').forEach(button=>{
+                button.style.fontFamily = "Naruto";
+            })
         }
         else{
             document.getElementById('label-text').classList.add('avenger-label');
             document.getElementById('label-text').classList.remove('naruto-label');
+            document.querySelectorAll('button').forEach(button=>{
+                button.style.fontFamily = "Avengers";
+            })
         }
     })
-    // const passwordHandler = (e) =>{
-    //     e.preventDefault();
-    //     let pass = '';
-    //     pass = pass + e.target.value;
-    //     console.log(pass);
-
-    //     if(pass.length === 10 && pass === '8185878523'){
-    //         props.history.push('/final');
-    //     }
-    // }
+    const passwordHandler = (e) =>{
+        setPass(pass+e.target.value)
+        console.log(pass);
+        if(pass.length === 9 && pass === '818587852'){
+            props.history.push('/final');
+        }
+    }
     return(
         <div>
             <div className="first-half">
-                <p id="label-text">Enter the password (you are familiar! if you cannot, shame on you. You use it daily)</p>
+                <p id="label-text">Enter the password. You use it to unlock stuff daily</p>
                 <input type="password" value={pass} id="pass" disabled/>
             </div>
+            <br/>
             <div className="second-half">
                 <div className="row">
-                    <div className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <button  value="1">1</button>
+                    <div className="col">
+                        <button  value="1" onClick={passwordHandler}>1</button>
                     </div>
-                    <div className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <button  value="2">2</button>
+                    <div className="col">
+                        <button  value="2" onClick={passwordHandler}>2</button>
                     </div>
-                    <div className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <button  value="3">3</button>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <button  value="4">4</button>
-                    </div>
-                    <div className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <button  value="5">5</button>
-                    </div>
-                    <div className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <button  value="6">6</button>
+                    <div className="col">
+                        <button  value="3" onClick={passwordHandler}>3</button>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <button  value="7">7</button>
+                    <div className="col">
+                        <button  value="4" onClick={passwordHandler}>4</button>
                     </div>
-                    <div className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <button  value="8">8</button>
+                    <div className="col">
+                        <button  value="5" onClick={passwordHandler}>5</button>
                     </div>
-                    <div className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <button  value="9">9</button>
+                    <div className="col">
+                        <button  value="6" onClick={passwordHandler}>6</button>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <button  value="7" onClick={passwordHandler}>7</button>
+                    </div>
+                    <div className="col">
+                        <button  value="8" onClick={passwordHandler}>8</button>
+                    </div>
+                    <div className="col">
+                        <button  value="9" onClick={passwordHandler}>9</button>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <button disabled>
+                            P
+                        </button>
+                    </div>
+                    <div className="col">
+                        <button  value="0" onClick={passwordHandler}>0</button>
+                    </div>
+                    <div className="col">
+                        <button disabled>K</button>
                     </div>
                 </div>
             </div>
