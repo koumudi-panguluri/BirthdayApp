@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const InlineSourcePlugin = require('html-webpack-inline-source-plugin');
 const DashboardPlugin = require('webpack-dashboard/plugin');
+const WorkboxPlugin = require('workbox-webpack-plugin');
 
 module.exports ={
     entry: {
@@ -65,6 +66,10 @@ module.exports ={
         new HtmlWebpackPlugin({
             template: 'public/index.html',
             inlineSource: 'runtime~.+\\.js',
+        }),
+        new WorkboxPlugin.GenerateSW({
+            clientsClaim: true,
+            skipWaiting: true
         }),
         new webpack.optimize.ModuleConcatenationPlugin(),
         new DashboardPlugin(),
