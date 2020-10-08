@@ -33,7 +33,7 @@ export default() =>{
                     <p className="time">00:00</p>
                 </div>
                 <div className="left-message" id="2">
-                    <p className="message">Eeeee! Thank you!</p>
+                    <p className="message">Eeeee! Thank you Toishiluu!</p>
                     <p className="time">00:00</p>
                 </div>
                 <div className="right-message" id="3">
@@ -41,7 +41,7 @@ export default() =>{
                     <p className="time">00:00</p>
                 </div>
                 <div className="left-message" id="4">
-                    <p className="message">Thank you! Eeeee. Nice</p>
+                    <p className="message">Awesome..! Thanks alot.</p>
                     <p className="time">00:01</p>
                 </div>
             </div>
