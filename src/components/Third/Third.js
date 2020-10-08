@@ -44,6 +44,14 @@ export default() =>{
                     <p className="message">Thank you! Eeeee. Nice</p>
                     <p className="time">00:01</p>
                 </div>
+                <div className="right-message" id="5">
+                    <p className="message">I made this in just one day. Hope you liked it..!</p>
+                    <p className="time">00:01</p>
+                </div>
+                <div className="left-message" id="6">
+                    <p className="message">That was amazing..! Loved it :)</p>
+                    <p className="time">00:02</p>
+                </div>
             </div>
             <div className="footer">
                 <div className="row">
