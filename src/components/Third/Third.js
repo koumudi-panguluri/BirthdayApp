@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { FaSmile, FaMicrophone} from 'react-icons/fa'
+import { FaSmile, FaMicrophone, ImAttachment} from 'react-icons/fa'
 import Koumi from '../../assets/images/koumi.png'
 import './Third.css';
 
@@ -29,7 +29,7 @@ export default() =>{
             </div>
             <div className='message-body'>
                 <div className='right-message' id='1'>
-                    <p className='message'>Happy Birthday Koumi!!! Eeeeeee</p>
+                    <p className='message'>Heyaa, Happy Birthday Koumi!!! Eeeeeee</p>
                     <p className='time'>00:00</p>
                 </div>
                 <div className='left-message' id='2'>
@@ -57,6 +57,9 @@ export default() =>{
                 <div className='row'>
                     <div className='col-1'>
                         <FaSmile className='first-emoji'/>
+                    </div>
+                    <div className = 'col-1'>
+                        <ImAttachment className='first-emoji'/>
                     </div>
                     <div className='col-4'>
                         <div className='message-bar'>
