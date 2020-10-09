@@ -8,9 +8,9 @@ import '../../public/favicon.ico'
 export default ()=>{
     return(
         <Router>
-            <Route exact path='/' component={Start} />
-            <Route exact path='/second' component={Second} />
-            <Route exact path='/final' component={Third} />
+            <Route exact path="/" component={Start} />
+            <Route exact path="/second" component={Second} />
+            <Route exact path="/final" component={Third} />
         </Router>
     )
 }
