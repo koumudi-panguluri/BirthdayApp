@@ -49,8 +49,20 @@ export default() =>{
                     <p className="time">00:01</p>
                 </div>
                 <div className="left-message" id="6">
-                    <p className="message">That was amazing..! Loved it :)</p>
+                    <p className="message">That was amazing..!</p>
                     <p className="time">00:02</p>
+                </div>
+                <div className="left-message" id="7">
+                    <p className="message">Loved it :)</p>
+                    <p className="time">00:02</p>
+                </div>
+                <div className="right-message" id="8">
+                    <p className="message">Thank you so much for accepting..</p>
+                    <p className="time">00:02</p>
+                </div>
+                <div className="left-message" id="9">
+                    <p className="message">Ofcourse i do.</p>
+                    <p className="time">00:03</p>
                 </div>
             </div>
             <div className="footer">
